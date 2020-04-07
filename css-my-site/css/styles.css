@@ -10,6 +10,15 @@ body {
   padding-top: 100px;
 }
 
+.me, .text {
+  color: #66BFBF;
+  line-height: 2;
+}
+
+.text {
+  font-weight: normal;
+}
+
 h1 {
   font-family: 'Pacifico', cursive;
   /* 1em = 16px; 100% = 16px; */
@@ -20,6 +29,7 @@ h1 {
 
 h2, h3 {
   font-family: 'Open Sans', sans-serif;
+  color: #11999E;
 }
 
 h2 {
@@ -40,6 +50,10 @@ h2 {
 
 .middle-container {
 
+}
+
+.btn {
+  color: #11999E;
 }
 
 .bottom-container {
