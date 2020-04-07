@@ -1,0 +1,47 @@
+body {
+  background-color: #f1f3f4;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  /* 1em = 16px; 100% = 16px; */
+    /* Usar 'rem' no lugar de 'em' ou '%', pois com 'rem', mesmo se outra classe tiver algum 'em', ele não vai adicionar mais pixels. */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
