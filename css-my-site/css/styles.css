@@ -1,5 +1,5 @@
 body {
-  background-color: #f1f3f4;
+  /* background-color: #f1f3f4; */
   margin: 0;
   text-align: center;
   font-family: 'Roboto Slab', serif;
@@ -8,6 +8,7 @@ body {
 .top-container {
   position: relative;
   padding-top: 100px;
+  background-color: #EAF6F6;
 }
 
 .me, .text {
@@ -52,10 +53,48 @@ h2 {
 
 }
 
-.btn {
+hr {
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 10px;
+  margin: 100px auto 100px;
+  width: 5%;
+}
+
+.description-profile {
+  color: #40514E;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.img-php {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+}
+
+.title-skill {
   color: #11999E;
 }
 
-.bottom-container {
+.img-java {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
 
+.bottom-container {
+  background-color: #EAF6F6;
+}
+
+.rights {
+  margin-bottom: 0;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
