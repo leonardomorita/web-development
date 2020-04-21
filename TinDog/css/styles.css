@@ -146,3 +146,14 @@ h2 {
   color: white;
 }
 /* it ends a section cta */
+
+/* it starts a section footer */
+#footer {
+  background-color: white;
+  text-align: center;
+}
+
+.copy {
+
+}
+/* it ends a section footer */
