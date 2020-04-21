@@ -115,7 +115,7 @@ h2 {
 }
 /* it ends a section press */
 
-/* it starts a section */
+/* it starts a section pricing */
 #pricing {
   padding: 100px;
   text-align: center;
@@ -124,4 +124,25 @@ h2 {
 .pricing-column {
   padding: 3% 2%;
 }
-/* it ends a section */
+/* it ends a section pricing */
+
+/* it starts a section cta */
+#cta {
+  /* padding: 5% 15%; */
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-title {
+  color: white;
+  font-family: 'Montserrat';
+  font-weight: 900;
+  margin: auto;
+  padding-bottom: 5%;
+  width: 500px;
+}
+
+.apple {
+  color: white;
+}
+/* it ends a section cta */
