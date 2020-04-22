@@ -128,7 +128,7 @@ h2 {
 
 /* it starts a section cta */
 #cta {
-  /* padding: 5% 15%; */
+  padding: 7% 15%;
   background-color: #ff4c68;
   text-align: center;
 }
@@ -136,10 +136,11 @@ h2 {
 .cta-title {
   color: white;
   font-family: 'Montserrat';
+  font-size: 3.0rem;
   font-weight: 900;
   margin: auto;
   padding-bottom: 5%;
-  width: 500px;
+  width: 55.5rem;
 }
 
 .apple {
