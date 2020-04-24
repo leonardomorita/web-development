@@ -7,6 +7,12 @@ h2 {
 }
 /* end global */
 
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* end containers */
+
 /* it starts a section title */
 #title {
   background-color: #ff4c68;
@@ -14,11 +20,10 @@ h2 {
   font-family: 'Montserrat';
 }
 
-/* NavBar */
-.container-fluid {
+#title .container-fluid {
   padding: 3% 15% 7%;
 }
-
+/* NavBar */
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -55,7 +60,6 @@ h2 {
 
 /* it starts a section features */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
@@ -96,10 +100,6 @@ h2 {
   border-radius: 100%;
   margin: 20px;
 }
-
-.carousel-item {
-  padding: 7% 15%;
-}
 /* it ends a section testimonials */
 
 /* it starts a section press */
@@ -128,7 +128,6 @@ h2 {
 
 /* it starts a section cta */
 #cta {
-  padding: 7% 15%;
   background-color: #ff4c68;
   text-align: center;
 }
@@ -152,9 +151,5 @@ h2 {
 #footer {
   background-color: white;
   text-align: center;
-}
-
-.copy {
-
 }
 /* it ends a section footer */
