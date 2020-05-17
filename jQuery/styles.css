@@ -1,2 +1,12 @@
 
+.big-title {
+    font-size: 10rem;
+}
 
+.italic {
+    font-style: italic;
+}
+
+.background-color-blue {
+    background-color: blue;
+}
